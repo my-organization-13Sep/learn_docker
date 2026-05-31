@@ -25,9 +25,6 @@ jobs:
     - name: Skip tests
       run: echo "No tests to run"
 
-    - name: Build project
-      run: npm run build
-
     - name: Archive build artefacts
       uses: actions/upload-artifact@v4
       with:
